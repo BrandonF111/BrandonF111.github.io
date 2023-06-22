@@ -4,6 +4,14 @@ icon: fas fa-file-alt
 order: 3
 ---
 
+<details>
+
+<summary>PDF of resume in here </summary>
+
+[Resume-Brandon-Forehand.pdf](https://github.com/BrandonF111/BrandonF111.github.io/blob/41a9a3e3748159a357bd14110239c080fe993e4e/Resume-Brandon-Forehand-2.pdf)
+
+</details>
+
 
 # Brandon Forehand
 ## Round Rock, Texas, United States
