@@ -14,9 +14,7 @@ order: 3
 Experience
 ---
 
-**IT Support Associate II**
-
-**Amazon**
+**IT Support Associate II** - **Amazon**
 
 **Jan 2022 - Present (1 year 6 months)**
 - Created tickets, troubleshot and resolved desktop/locker issues.
@@ -27,9 +25,9 @@ Experience
 - Used ticketing systems to manage and process support actions and requests.
 #
 
-### Computer Support Technician
-#### University of Central Florida
-##### Jan 2020 - Jan 2022 (2 years 1 month)
+**Computer Support Technician** - **University of Central Florida**
+
+**Jan 2020 - Jan 2022 (2 years 1 month)**
 - Windows troubleshooting and support.
 - Minor Linux troubleshooting and support.
 - Familiarity placing orders for clients through vendors.
@@ -42,14 +40,13 @@ Experience
 - Configured hardware, devices and software to set up work stations for employees.
 #
 
-### Tier 1 Technical Support
-#### Far Out Solutions
-##### Jun 2019 - Sep 2019 (4 months)
+**Tier 1 Technical Support** - **Far Out Solutions**
+
+**Jun 2019 - Sep 2019 (4 months)**
 - Remote and onsite technical assistance to customers. This varied from printer setup, scan to folder and email, computer setup to a network, router install and setup, backup software setup and configuration and check scanner setup to computers.
 - Handled hardware and software troubleshooting dealing with printer problems and errors, routers, email issues and archiving, computer hardware and windows issues. Worked directly with clients to develop solutions to their problems and plans for additional growth.
 
-
-
+#
 
 #### Non-Technical Job Experience
 
