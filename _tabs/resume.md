@@ -10,7 +10,9 @@ order: 3
 **ftbrn.00@gmail.com**
 
 **linkedin.com/in/brandon-forehand-603142153**
-## Experience
+
+Experience
+---
 
 **IT Support Associate II**
 
@@ -47,7 +49,7 @@ order: 3
 - Handled hardware and software troubleshooting dealing with printer problems and errors, routers, email issues and archiving, computer hardware and windows issues. Worked directly with clients to develop solutions to their problems and plans for additional growth.
 
 
-</br>
+
 
 #### Non-Technical Job Experience
 
@@ -59,31 +61,31 @@ Lot Associate
 The Home Depot
 Jan 2014 - Jan 2015 (1 year 1 month)
 
-</br>
+
 
 # Education
 
 ## Valencia College
 ### Associate of Science - AS, NET Cyber Security Spec
 #### 2015 - 2018
-</br>
+
 
 # Licenses & Certifications
 ### CompTIA CySA+ ce Certification - CompTIA
 #### Issued Jun 2023 - Expires Jun 2026
-</br>
+
 
 ### CompTIA Security+ ce Certification - CompTIA
 #### Issued Apr 2018 - Expires Apr 2021
 
-</br>
+
 
 ### SQL course - Sololearn
-</br>
+
 
 ### CompTIA A+ ce Certification - CompTIA
 #### Issued Mar 2019 - Expires Mar 2022
-</br>
+
 
 # Skills
 
