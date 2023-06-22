@@ -6,4 +6,3 @@ order: 3
 ---
 
 
-> **Note**: Add Markdown syntax content to file `_tabs/resume.md` and it will show up on this page.
