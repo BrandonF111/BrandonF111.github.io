@@ -24,6 +24,7 @@ Experience
 - Configured hardware and granted system permissions to new and current employees.
 - Used ticketing systems to manage and process support actions and requests.
 #
+#
 
 **Computer Support Technician** - **University of Central Florida**
 
@@ -39,13 +40,13 @@ Experience
 - Maintained documentation and resources regarding problem resolution for reference in future instances.
 - Configured hardware, devices and software to set up work stations for employees.
 #
+#
 
 **Tier 1 Technical Support** - **Far Out Solutions**
 
 **Jun 2019 - Sep 2019 (4 months)**
 - Remote and onsite technical assistance to customers. This varied from printer setup, scan to folder and email, computer setup to a network, router install and setup, backup software setup and configuration and check scanner setup to computers.
 - Handled hardware and software troubleshooting dealing with printer problems and errors, routers, email issues and archiving, computer hardware and windows issues. Worked directly with clients to develop solutions to their problems and plans for additional growth.
-
 #
 
 #### Non-Technical Job Experience
