@@ -7,12 +7,16 @@ order: 3
 
 # Brandon Forehand
 ## Round Rock, Texas, United States
-#### ftbrn.00@gmail.com
-#### linkedin.com/in/brandon-forehand-603142153
+**ftbrn.00@gmail.com**
+
+**linkedin.com/in/brandon-forehand-603142153**
 ## Experience
 
-### Amazon
-##### Jan 2022 - Present (1 year 6 months)
+**IT Support Associate II**
+
+**Amazon**
+
+**Jan 2022 - Present (1 year 6 months)**
 - Created tickets, troubleshot and resolved desktop/locker issues.
 - Provided IT support to non-technical and technical internal users through desk side support services.
 - Updated software to safeguard against security flaws.
