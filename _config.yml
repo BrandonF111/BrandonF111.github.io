@@ -20,10 +20,12 @@ timezone: America/Chicago
 
 title: Brandon's Adventures # the main title
 
-tagline: A place for my thoughts and progress # it will display as the sub-title
+tagline: My journey into cyber security and beyond. # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
-  A minimal, responsive and feature-rich Jekyll theme for technical writing.
+  A place to store all of my projects,
+  goals, and progess into the cyber security
+  field
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: "https://BrandonF111.github.io"
