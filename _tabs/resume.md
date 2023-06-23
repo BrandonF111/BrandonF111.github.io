@@ -17,7 +17,7 @@ order: 3
 ## Round Rock, Texas, United States
 **ftbrn.00@gmail.com**
 
-**linkedin.com/in/brandon-forehand-603142153** <a href="linkedin.com/in/brandon-forehand-603142153" target="_blank">My Linkedin</a>
+**[My Linkedin](linkedin.com/in/brandon-forehand-603142153)**
 
 Experience
 ---
