@@ -8,7 +8,7 @@ order: 3
 
 <summary>PDF of resume in here </summary>
 
-[Resume-Brandon-Forehand.pdf](www.google.com)
+Resume-Brandon-Forehand.pdf
 
 </details>
 
