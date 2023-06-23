@@ -8,7 +8,7 @@ order: 3
 
 <summary>PDF of resume in here </summary>
 
-[Resume-Brandon-Forehand.pdf](https://github.com/BrandonF111/BrandonF111.github.io/blob/41a9a3e3748159a357bd14110239c080fe993e4e/Resume-Brandon-Forehand-2.pdf)
+[Resume-Brandon-Forehand.pdf](www.google.com)
 
 </details>
 
@@ -17,14 +17,14 @@ order: 3
 ## Round Rock, Texas, United States
 **ftbrn.00@gmail.com**
 
-**linkedin.com/in/brandon-forehand-603142153**
+**linkedin.com/in/brandon-forehand-603142153** <a href="linkedin.com/in/brandon-forehand-603142153" target="_blank">My Linkedin</a>
 
 Experience
 ---
 
 **IT Support Associate II** - **Amazon**
 
-**Jan 2022 - Present (1 year 6 months)**
+**Jan 2022 - Present**
 - Created tickets, troubleshot and resolved desktop/locker issues.
 - Provided IT support to non-technical and technical internal users through desk side support services.
 - Updated software to safeguard against security flaws.
