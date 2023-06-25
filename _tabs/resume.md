@@ -72,7 +72,9 @@ Jan 2014 - Jan 2015 (1 year 1 month)
 # Education
 
 **Valencia College**
+
 **Associate of Science - AS, NET Cyber Security Spec**
+
 **2015 - 2018**
 
 
