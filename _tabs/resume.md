@@ -71,26 +71,25 @@ Jan 2014 - Jan 2015 (1 year 1 month)
 
 # Education
 
-## Valencia College
-### Associate of Science - AS, NET Cyber Security Spec
-#### 2015 - 2018
+**Valencia College**
+**Associate of Science - AS, NET Cyber Security Spec**
+**2015 - 2018**
 
 
 # Licenses & Certifications
-### CompTIA CySA+ ce Certification - CompTIA
-#### Issued Jun 2023 - Expires Jun 2026
+**CompTIA CySA+ ce Certification - CompTIA**
+- **Issued Jun 2023 - Expires Jun 2026**
 
 
-### CompTIA Security+ ce Certification - CompTIA
-#### Issued Apr 2018 - Expires Apr 2021
+**CompTIA Security+ ce Certification - CompTIA**
+- **Issued Apr 2018 - Expires Apr 2021**
 
 
+**SQL course - Sololearn**
 
-### SQL course - Sololearn
 
-
-### CompTIA A+ ce Certification - CompTIA
-#### Issued Mar 2019 - Expires Mar 2022
+**CompTIA A+ ce Certification - CompTIA**
+- **Issued Mar 2019 - Expires Mar 2022**
 
 
 # Skills
