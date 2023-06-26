@@ -16,8 +16,6 @@ Resume-Brandon-Forehand.pdf
 # Brandon Forehand
 ## Round Rock, Texas, United States
 
-**[My Linkedin](linkedin.com/in/brandon-forehand-603142153)**
-
 Experience
 ---
 
