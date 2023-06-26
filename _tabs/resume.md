@@ -15,9 +15,8 @@ Resume-Brandon-Forehand.pdf
 
 # Brandon Forehand
 ## Round Rock, Texas, United States
-**ftbrn.00@gmail.com**
 
-**linkedin.com/in/brandon-forehand-603142153**
+**[My Linkedin](linkedin.com/in/brandon-forehand-603142153)**
 
 Experience
 ---
