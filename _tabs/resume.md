@@ -8,7 +8,7 @@ order: 3
 
 <summary>PDF of resume in here </summary>
 
-[Resume PDF](https://github.com/BrandonF111/BrandonF111.github.io/blob/main/Resume-Brandon-Forehand-2.pdf)
+<https://github.com/BrandonF111/BrandonF111.github.io/blob/main/Resume-Brandon-Forehand-2.pdf>
 
 </details>
 
