@@ -4,4 +4,4 @@ icon: fas fa-file-alt
 order: 3
 ---
 
-<meta HTTP-EQUIV="REFRESH" content="0; url=/assets/pdf/Resume-Brandon-Forehand-New.pdf">
+<meta HTTP-EQUIV="REFRESH" content="0; url=/assets/pdf/Brandon_Forehand_Resume.pdf">
