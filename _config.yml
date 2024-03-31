@@ -79,10 +79,10 @@ theme_mode: # [light|dark]
 # will be added to all image (site avatar & posts' images) paths starting with '/'
 #
 # e.g. 'https://cdn.com'
-img_cdn: https://1.gravatar.com/userimage/248753262/b3efcee03e6d671422c9f5994b0e4451?size=256
+img_cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar:
+avatar: https://1.gravatar.com/userimage/248753262/b3efcee03e6d671422c9f5994b0e4451?size=256
 
 # boolean type, the global switch for TOC in posts.
 toc: true
