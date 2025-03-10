@@ -1,7 +1,7 @@
 ---
-title: Page Updates for 2025
+title: TryHackMe Security Engineering path write-up Pt.1
 date: 2025-03-3
-description: TryHackMe Security Engineering path interesting points
+description: Interesting points I found within the IAM room
 ---
 
 ## TryHackMe - Security Engineering Path
