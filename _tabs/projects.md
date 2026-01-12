@@ -4,10 +4,7 @@ icon: fas fa-clipboard
 order: 2
 ---
 
-## My Projects
-
-<details>
-<summary><strong>Cybersecurity Projects</strong></summary>
+## Cybersecurity Projects
 
 - **Security Container Pipeline** - **COMPLETED**
   - Docker container testing using GitHub actions
@@ -18,5 +15,3 @@ order: 2
   - Using Wazuh for detection and monitoring
   - Log ingestion & alerting
   - Blue Team detections
-
-</details>
