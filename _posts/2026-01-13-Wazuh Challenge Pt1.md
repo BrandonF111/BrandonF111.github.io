@@ -13,7 +13,7 @@ The first thing I started with was setting up the systems and making sure they c
 ![Image of initial logs](assets/img/posts/wazuh/initial-detection.png)
 
 I saw that it triggered mainly ID 60122 which was for the login failure. This was my starting point for creating my rule to detect the multiple brute for attempts. Working with Google's Gemini I created rule for my detect:
-```
+```xml
     <group name="local,">
     
       <rule id="100001" level="12" frequency="8" timeframe="60">
