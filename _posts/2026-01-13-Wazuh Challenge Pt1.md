@@ -40,3 +40,5 @@ After this was setup I rebooted the wazuh manager and ran hydra again. It detect
 ![Image of rule firing in wazuh](/assets/img/posts/wazuh/my-rule-detection.png)
 
 In the next part of this write-up I will be going over the active response setup and some troubleshooting I had to work through to get it setup.
+
+Brandon
