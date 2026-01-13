@@ -1,0 +1,42 @@
+---
+date: 13-01-2026
+author: Brandon
+title: Wazuh Project Challenges Pt.1
+description: Write up on the first challenge in my Wazuh home lab
+categories: [Security Projects]
+tags: [wazuh, detection engineering]
+---
+In my previous post I mentioned I was working on some challenges in Wazuh to learn more about the tool and to see how some basic incidents and responses work. I unintentionally did two challenges together without initially realizing it, so I saved myself some time. In this part we will be covering the "The Brute Force & Account Lockout Challenge". 
+
+### The Brute Force & Account Lockout Challenge 
+The first thing I started with was setting up the systems and making sure they could all detect and ping each other. It took some time to get the agent setup on the Windows system, but it turned out that was due to me not opening the port on my Ubuntu system that would allow the agent to connect to the system. Once that was done I got hydra setup with the password file (I used the rockyou text file for this as a generic password file), the IP address, and accounts I wanted it to attack. I ran it and got back the initial logs:
+![Image of initial logs](assets/img/posts/wazuh/initial-detection.png)
+
+I saw that it triggered mainly ID 60122 which was for the login failure. This was my starting point for creating my rule to detect the multiple brute for attempts. Working with Google's Gemini I created rule for my detect:
+```
+    <group name="local,">
+    
+      <rule id="100001" level="12" frequency="8" timeframe="60">
+        <if_matched_sid>60122</if_matched_sid>
+        <field name="win.eventdata.targetUserName">administrator</field>
+        <description>Multiple RDP Failed Logins - Possible Brute Force on Admin Account</description>
+        <group>attack,brute_force,</group>
+      </rule>
+    
+    </group>
+```
+Here is how the rule is broken down:
+
+ - rule id is pretty straight forward though for Wazuh it needs to be between 100000 to 120000 to be a custom rule. 
+ - if_matched_sid: This is the rule it is looking for to match to trigger my custom rule
+ - field name="win.eventdata.targetUserName: This checks that field coming from Windows which lets it know what account is being attacked
+ - Description: The description that will be posted when the rule triggers. It can be customized to display any username or even an IP address
+ - frequency: This is how many times rule 60122 needs to fire before it is picked up by this rule. This goes in conjunction with the timeframe tag.
+ - timeframe: This is a block of time it looks for whatever rule to show up. It is was set at 60 seconds. Since this works with the frequency tag if the main rule is detected 8 times and within 60 seconds that would allow this custom rule to run.
+
+Though the entire rule is important, the part that has the most adjustment is the frequency and time frame. As I had it all setup I began to think of how this all could be configured. You wouldn't want too few of attempts tried since then that would lock out a normal user who tries their password 3 or 4 times if they are trying to remote in, on the other hand you don't want to allow too many attempts, so it seems to be a delicate balance in a way.
+
+After this was setup I rebooted the wazuh manager and ran hydra again. It detected the main rule 60122 and after 8 attempts it popped up with my custom rule. Success!
+![Image of rule firing in wazuh](/assets/img/posts/wazuh/my-rule-detection.png)
+
+In the next part of this write-up I will be going over the active response setup and some troubleshooting I had to work through to get it setup.
