@@ -1,8 +1,8 @@
 ---
-date: 13-01-2026
-author: Brandon
 title: Wazuh Project Challenges Pt.1
+date: 13-01-2026
 description: Write up on the first challenge in my Wazuh home lab
+Author: Brandon
 categories: [Security Projects]
 tags: [wazuh, detection engineering]
 ---
