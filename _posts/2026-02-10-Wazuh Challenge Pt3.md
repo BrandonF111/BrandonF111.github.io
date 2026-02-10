@@ -11,22 +11,22 @@ This write up will cover the challenge of detecting "Living off the Land" (LotL)
 
 ## **Detecting suspicious powershell usage**
 I started off this challenge with trying to detect suspicious powershell usage. I setup a payload in metasploit and just copied the command into powershell, which Windows ended up blocking thankfully. After disabling the protection I ran the command, which was an encoded powershell command. Wazuh did pick up since it has an internal sysmon rule for that, but for the sake of learning I created my own rule.
-![lotl powershell rule](assets/img/posts/wazuh/lotl_rule.png)
+![lotl powershell rule](/assets/img/posts/wazuh/lotl_rule.png)
 After that I ran the command again and it was detected with my custom rule.
-![lotl powershell detection](assets/img/posts/wazuh/lotl_detection.png)
+![lotl powershell detection](/assets/img/posts/wazuh/lotl_detection.png)
 The neat part is that within the rule detection it shows you the entire command that was ran. Taking the encoded command I went into [cyberchef](https://gchq.github.io/CyberChef/) and put it in and decoded it.
-![decoded command](assets/img/posts/wazuh/lotl_decoded.png)
+![decoded command](/assets/img/posts/wazuh/lotl_decoded.png)
 Thankfully Windows already blocks the usage of a powershell command that is encoded, but in case that was ever to get removed this rule would detect it.
 
 ## **Detecting Certutil usage**
 Originally the powershell detection was going to be the only one I did, but the AI agent I was working with added a few more so I decided why not do them and learn some more. This challenge was trying to detect certutil being used. Initially Windows Security already blocked it, which was good to see. After it was disabled I ran the command again.
-[certutil powershell command](assets/img/posts/wazuh/lotl_certutil_command.png)
+![certutil powershell command](/assets/img/posts/wazuh/lotl_certutil_command.png)
 Wazuh did have a detection built in for it, but I still ended up creating my command to test and I feel that the wording was a bit better
-![certutil rule](assets/img/posts/wazuh/lotl_certutil_rule.png)
+![certutil rule](/assets/img/posts/wazuh/lotl_certutil_rule.png)
 After that I ran it again and got the detection. The picture shows the internal Wazuh rule and my custom rule above it.
-![certutil detection](assets/img/posts/wazuh/lotl_certutil_detect.png)
+![certutil detection](/assets/img/posts/wazuh/lotl_certutil_detect.png)
 And then here is the detection data which shows what was downloaded using certutil
-![wazuh certutil detection data](assets/img/posts/wazuh/lotl_certutil_data.png)
+![wazuh certutil detection data](/assets/img/posts/wazuh/lotl_certutil_data.png)
 
 ## **Detecting suspicious schtasks usage**
 
@@ -45,11 +45,11 @@ The finally challenge related to LotL was detecting schtasks being used for a su
 -   Examined existing detection rules in `/var/ossec/ruleset/rules/0800-sysmon_id_1.xml` (like rule 92052) to understand syntax and field names
 
 After all of that (which took quite a while to hunt down) I was able to create the rule. My regex is still bad so I got some help with that. The rule is looking for the process creation event from Sysmon, then looking for schtasks regardless of case, also if it contains the /create flag, and finally if it matches for minute or hourly creation.
-![schtasks rule](assets/img/posts/wazuh/lotl_schtask_rule.png)
+![schtasks rule](/assets/img/posts/wazuh/lotl_schtask_rule.png)
 
 The command was run again and detected by my custom rule!
-![schtasks rule detection](assets/img/posts/wazuh/lotl_schtask_wazuh.png)
-![schtasks detection data](assets/img/posts/wazuh/lotl_schtask_wazuh_details.png)
+![schtasks rule detection](/assets/img/posts/wazuh/lotl_schtask_wazuh.png)
+![schtasks detection data](/assets/img/posts/wazuh/lotl_schtask_wazuh_details.png)
 
 This challenge was quite interesting and I learned a lot. It was interesting to learn about Living of the Land attacks and how so many native binaries and commands can be used in a malicious manner. Also nice to see that the default Windows security system is actually pretty good. I definitely have to look back through this to get a good understanding of some of the xml fields within my last rule. But overall it was a great learning experience and it will be fun to look back into this and continue to learn more.
 
