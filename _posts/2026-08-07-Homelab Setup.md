@@ -14,6 +14,7 @@ The system everything runs off is an HP Z440. It has 64GB of RAM, and I swapped 
 
 ## VMs
 A list of the VMs on my proxmox system.
+
 Standalone Systems
  1. Ubuntu - This was my first VM I had with Wazuh installed. From here I watched my Windows system
  1. Kali box - Used to run attacks against my Windows client.
